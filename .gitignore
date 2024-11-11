@@ -1,4 +1,6 @@
-composer.lock
 /vendor
+/node_modules
 /.idea
 /.vscode
+composer.lock
+package-lock.json

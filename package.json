@@ -1,0 +1,16 @@
+{
+  "name": "quicksand-blade-component",
+  "version": "1.0.0",
+  "description": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/itliusha/quicksand-blade-component.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-component) [![Total Downloads](https://img.shields.io/packagist/dt/itliusha/quicksand-blade-component.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-component) ![GitHub Actions](https://github.com/itliusha/quicksand-blade-component/actions/workflows/main.yml/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}
