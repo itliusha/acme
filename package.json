@@ -1,16 +1,25 @@
 {
   "name": "quicksand-blade-component",
-  "version": "1.0.0",
-  "description": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/itliusha/quicksand-blade-component.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-component) [![Total Downloads](https://img.shields.io/packagist/dt/itliusha/quicksand-blade-component.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-component) ![GitHub Actions](https://github.com/itliusha/quicksand-blade-component/actions/workflows/main.yml/badge.svg)",
-  "main": "index.js",
+  "description": "This is the laravel blade components.",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build",
+    "dev": "vite"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14"
+    "cssnano": "^7.0.6",
+    "laravel-vite-plugin": "^1.0.5",
+    "postcss": "^8.4.49",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "^1.6.12"
   }
 }

@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const {theme} = require("./tailwind.config");
+// const {theme} = require("./tailwind.config");
 module.exports = {
   content: [
     "./resources/views/**/*.blade.php",
