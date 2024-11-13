@@ -11,7 +11,7 @@ class QuicksandBladeComponentServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // Automatically apply the package configuration
+        // Automatically apply the package configuration 房间的价格
         $this->mergeConfigFrom(__DIR__ . '/../config/quicksand-blade-component.php', 'quicksand-blade-component');
 
         // Register the main class to use with the facade
