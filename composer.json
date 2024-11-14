@@ -1,11 +1,11 @@
 {
-    "name": "itliusha/quicksand-blade-ui",
+    "name": "itliusha/acme",
     "description": "This is a Laravel blade ui",
     "keywords": [
         "itliusha",
-        "quicksand-blade-ui"
+        "acme"
     ],
-    "homepage": "https://github.com/itliusha/quicksand-blade-ui",
+    "homepage": "https://github.com/itliusha/acme",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Itliusha\\QuicksandBladeUi\\": "src"
+            "Itliusha\\Acme\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Itliusha\\QuicksandBladeUi\\Tests\\": "tests"
+            "Itliusha\\Acme\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Itliusha\\QuicksandBladeUi\\QuicksandBladeUiServiceProvider"
+                "Itliusha\\Acme\\AcmeServiceProvider"
             ],
             "aliases": {
-                "QuicksandBladeUi": "Itliusha\\QuicksandBladeUi\\QuicksandBladeUiFacade"
+                "Acme": "Itliusha\\Acme\\AcmeFacade"
             }
         }
     }

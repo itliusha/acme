@@ -1,8 +1,8 @@
 <?php
 
-namespace Itliusha\QuicksandBladeUi;
+namespace Itliusha\Acme;
 
-final class QuicksandBladeUi
+final class Acme
 {
     private static array $styles = [];
 

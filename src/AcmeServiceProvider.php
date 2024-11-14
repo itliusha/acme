@@ -1,19 +1,19 @@
 <?php
 
-namespace Itliusha\QuicksandBladeUi;
+namespace Itliusha\Acme;
 
-use Itliusha\QuicksandBladeUi\Console\PublishCommand;
+use Itliusha\Acme\Console\PublishCommand;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 
-class QuicksandBladeUiServiceProvider extends PackageServiceProvider
+class AcmeServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
 
         $package
-            ->name('quicksand-blade-ui')
-            ->hasConfigFile()
+            ->name('acme')
+            ->hasConfigFile('acme')
             ->hasViews()
             ->hasCommands([
                 PublishCommand::class

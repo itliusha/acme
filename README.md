@@ -1,21 +1,21 @@
-<h1 align="center">Quicksand Blade UI</h1>
+<h1 align="center">Acme</h1>
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/itliusha/quicksand-blade-ui.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-ui)
-[![Total Downloads](https://img.shields.io/packagist/dt/itliusha/quicksand-blade-ui.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-ui)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/itliusha/acme.svg?style=flat-square)](https://packagist.org/packages/itliusha/acme)
+[![Total Downloads](https://img.shields.io/packagist/dt/itliusha/acme.svg?style=flat-square)](https://packagist.org/packages/itliusha/acme)
 
-Quicksand Blade UI 是一个专门为 Laravel 框架定制的强大丰富的 UI 组件库。
+Acme 是一个专门为 Laravel 框架定制的强大且丰富的 UI 组件库。
 
 ## 下载
 
 你可以通过 `composer` 安装这个扩展包:
 
 ```bash
-composer require itliusha/quicksand-blade-ui
+composer require itliusha/acme
 ```
 
 ## 官方文档
 
-进入[官方文档](https://github.com/itliusha/quicksand-blade-ui) 来了解如何使用这个扩展包。
+进入[官方文档](https://github.com/itliusha/acme) 来了解如何使用这个扩展包。
 
 ### 更新日志
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Itliusha\QuicksandBladeUi;
+namespace Itliusha\Acme;
 
 use Illuminate\Support\Facades\Facade;
 
-class QuicksandBladeUiFacade extends Facade
+class AcmeFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -13,6 +13,6 @@ class QuicksandBladeUiFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'quicksand-blade-ui';
+        return 'acme';
     }
 }
