@@ -1,52 +1,35 @@
-# Very short description of the package
+<h1 align="center">Quicksand Blade UI</h1>
+=====
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/itliusha/quicksand-blade-component.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-component)
-[![Total Downloads](https://img.shields.io/packagist/dt/itliusha/quicksand-blade-component.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-component)
-![GitHub Actions](https://github.com/itliusha/quicksand-blade-component/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/itliusha/quicksand-blade-ui.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-ui)
+[![Total Downloads](https://img.shields.io/packagist/dt/itliusha/quicksand-blade-ui.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-ui)
+![GitHub Actions](https://github.com/itliusha/quicksand-blade-ui/actions/workflows/main.yml/badge.svg)
 
-## Installation
+Quicksand Blade UI 是一个专门为 Laravel 框架定制的强大丰富的 UI 组件库。
 
-You can install the package via composer:
+## 下载
 
-```bash
-composer require itliusha/quicksand-blade-component
-```
-
-## Usage
-
-```php
-// Usage description here
-```
-
-### Testing
+你可以通过 `composer` 安装这个扩展包:
 
 ```bash
-composer test
+composer require itliusha/quicksand-blade-ui
 ```
 
-### Changelog
+## 官方文档
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+进入[官方文档](https://github.com/itliusha/quicksand-blade-ui) 来了解如何使用这个扩展包。
 
-## Contributing
+### 更新日志
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+请参阅 [CHANGELOG](CHANGELOG.md) 来了解最近发生的变化的更多信息。
 
-### Security
-
-If you discover any security related issues, please email itliusha@qq.com instead of using the issue tracker.
-
-## Credits
+## 维护者
 
 -   [itliusha](https://github.com/itliusha)
--   [All Contributors](../../contributors)
+-   [gsjisi](https://github.com/gsjisi)
+-   [全部维护者](../../contributors)
 
-## License
+## 许可证
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).

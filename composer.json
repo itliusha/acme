@@ -1,11 +1,11 @@
 {
-    "name": "itliusha/quicksand-blade-component",
-    "description": "This is a Laravel blade components",
+    "name": "itliusha/quicksand-blade-ui",
+    "description": "This is a Laravel blade ui",
     "keywords": [
         "itliusha",
-        "quicksand-blade-component"
+        "quicksand-blade-ui"
     ],
-    "homepage": "https://github.com/itliusha/quicksand-blade-component",
+    "homepage": "https://github.com/itliusha/quicksand-blade-ui",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -20,7 +20,8 @@
         "illuminate/filesystem": "^9.0|^10.0|^11.0",
         "illuminate/support": "^9.0|^10.0|^11.0",
         "illuminate/view": "^9.0|^10.0|^11.0",
-        "livewire/livewire": "^3.5"
+        "livewire/livewire": "^3.5",
+        "spatie/laravel-package-tools": "^1.16"
     },
     "require-dev": {
         "orchestra/testbench": "^8.0|^9.0",
@@ -28,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Itliusha\\QuicksandBladeComponent\\": "src"
+            "Itliusha\\QuicksandBladeUi\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Itliusha\\QuicksandBladeComponent\\Tests\\": "tests"
+            "Itliusha\\QuicksandBladeUi\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Itliusha\\QuicksandBladeComponent\\QuicksandBladeComponentServiceProvider"
+                "Itliusha\\QuicksandBladeUi\\QuicksandBladeUiServiceProvider"
             ],
             "aliases": {
-                "QuicksandBladeComponent": "Itliusha\\QuicksandBladeComponent\\QuicksandBladeComponentFacade"
+                "QuicksandBladeUi": "Itliusha\\QuicksandBladeUi\\QuicksandBladeUiFacade"
             }
         }
     }

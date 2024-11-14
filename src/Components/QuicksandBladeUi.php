@@ -5,11 +5,11 @@
  * @description
  */
 
-namespace Itliusha\QuicksandBladeComponent\Components;
+namespace Itliusha\QuicksandBladeUi\Components;
 
 use Illuminate\View\Component;
 
-abstract class QuicksandBladeComponent extends Component
+abstract class QuicksandBladeUi extends Component
 {
 
 }
