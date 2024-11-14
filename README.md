@@ -1,10 +1,7 @@
 <h1 align="center">Quicksand Blade UI</h1>
-=====
-
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/itliusha/quicksand-blade-ui.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-ui)
 [![Total Downloads](https://img.shields.io/packagist/dt/itliusha/quicksand-blade-ui.svg?style=flat-square)](https://packagist.org/packages/itliusha/quicksand-blade-ui)
-![GitHub Actions](https://github.com/itliusha/quicksand-blade-ui/actions/workflows/main.yml/badge.svg)
 
 Quicksand Blade UI 是一个专门为 Laravel 框架定制的强大丰富的 UI 组件库。
 
@@ -32,4 +29,4 @@ composer require itliusha/quicksand-blade-ui
 
 ## 许可证
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+本项目使用了 MIT 许可证 (MIT)。请参阅 [许可证](LICENSE.md) 文件以了解更多信息。
