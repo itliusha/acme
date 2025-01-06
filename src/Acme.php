@@ -2,44 +2,46 @@
 
 namespace Itliusha\Acme;
 
+
+use Illuminate\Support\Facades\Vite;
+
 final class Acme
 {
-    private static array $styles = [];
+    private array $styles = [];
 
-    private static array $scripts = [];
+    private array $scripts = [];
 
-
-    /**
-     * @return array
-     */
-    public static function styles(): array
+    public function registerStyles(array $styles): void
     {
-        return static::$styles;
+        $this->styles = array_merge($this->styles, $styles);
     }
 
-    /**
-     * @return array
-     */
-    public static function scripts(): array
+    public function registerScripts(array $scripts): void
     {
-        return static::$scripts;
+        $this->scripts = array_merge($this->scripts, $scripts);
     }
 
-    /**
-     * @param array $styles
-     */
-    public static function setStyles(array $styles): void
+    public function renderStyles(): string
     {
-        self::$styles = $styles;
+        return collect($this->styles)->map(function ($style) {
+            return '<link rel="stylesheet" href="' . Vite::asset($style) . '">';
+        })->implode(PHP_EOL);
     }
 
 
-
-    /**
-     * @param array $scripts
-     */
-    public static function setScripts(array $scripts): void
+    public function renderScripts(): string
     {
-        self::$scripts = $scripts;
+        return collect($this->scripts)
+            ->map(function ($script) {
+            return '<script src="' . Vite::asset($script) . '"></script>';
+        })->implode(PHP_EOL);
     }
+
+
+    public function componentExists($name)
+    {
+        return app('view')->exists(md5('acme') . '::' . $name);
+    }
+
+
 }
